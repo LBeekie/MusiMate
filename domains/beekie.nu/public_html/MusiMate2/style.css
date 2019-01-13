@@ -1,0 +1,53 @@
+body, html {
+    border: 0;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#mainWrap {
+    width: 100%;
+    height: 100%;
+}
+
+#loginWrap {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+
+#login {
+    cursor: pointer;
+    background-color: forestgreen;
+    color: white;
+    margin: 0 auto;
+    font: 18pt "Helvetica Neue", "Helvetica", Arial;
+    padding: 20px 40px;
+}
+
+#createPlaylistWrap {
+    display: none;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+
+#createPlaylist {
+    cursor: pointer;
+    background-color: forestgreen;
+    color: white;
+    margin: 0 auto;
+    font: 18pt "Helvetica Neue", "Helvetica", Arial;
+    padding: 20px 40px;
+}
